@@ -1,5 +1,5 @@
 import { useState } from 'react'
-// import { PlusIcon } from '@heroicons/react/24/solid'
+import { PlusIcon } from '@heroicons/react/24/solid'
 
 const form = () => {
 
@@ -26,7 +26,7 @@ const form = () => {
                 <label htmlFor="task" className='label'>Lesson Topic</label>
             </div>
             <button className="btn" type="submit" aria-label='Lesson Topic'>
-                {/* <PlusIcon /> */}
+                <PlusIcon />
             </button>
         </form>
     )
